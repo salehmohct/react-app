@@ -2,13 +2,13 @@ import { useState } from "react";
 import "../Component/about.css";
 import Button from "react-bootstrap/Button";
 function About() {
-  const [color, setColor] = useState();
+  const [color, setColor] = useState("blue");
   return (
     <>
       <div className="about ">
         <div className="text">
           <h1 className="fs-1 " style={{ color: color }}>
-            Bootstrap Templates
+            Welcome to Bootstrap Templates
           </h1>
           <p className="fw-bold fs-3  text-secondary ">
             Awesome Bootstrap Templates for your next commercial or non-profit
